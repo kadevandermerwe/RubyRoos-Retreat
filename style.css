@@ -6,5 +6,55 @@
     --accent-color: #628053;
     --contrast-color: #4C3731;
     --contrast-color-2: #A75959;
+    --text-black: #4C3731;
 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+nav {
+    padding: 10px 0px;
+    overflow: visible;
+    background-color: var(--primary-color);
+
+}
+nav .Logo {
+    margin: auto;
+    width: auto;
+}
+nav .flex-container {
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+    
+ 
+}
+nav .flex-container .left-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Caveat Brush', cursive;
+    align-items: end;
+
+
+}
+nav .flex-container .right-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Caveat Brush', cursive;
+    margin-bottom: 30px;
+    align-items: end;
+
+}
+nav .flex-container img {
+    margin: auto;
+    box-shadow: none;
 }
