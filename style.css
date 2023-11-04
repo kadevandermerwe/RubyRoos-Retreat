@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@400;600&display=swap');
 
 :root {
     --primary-color: #F1E8D0;
@@ -8,8 +8,15 @@
     --contrast-color-2: #A75959;
     --text-black: #4C3731;
 
+    --Poppins: 'Poppins', sans-serif;
+    --Caveat: 'Caveat Brush', cursive;
+
 }
 body {
+    margin: 0;
+    padding: 0;
+}
+section {
     margin: 0;
     padding: 0;
 }
@@ -18,6 +25,7 @@ a {
     color: var(--text-black);
 }
 nav {
+
     padding: 10px 0px;
     overflow: visible;
     background-color: var(--primary-color);
@@ -31,13 +39,11 @@ nav .flex-container {
     width: 80%;
     display: flex;
     margin: auto;
-
-    
- 
 }
 nav .flex-container .left-links {
     display: flex;
     justify-content: space-evenly;
+    font-size: 24px;
     width: 100%;
     margin-bottom: 30px;
     font-family: 'Caveat Brush', cursive;
@@ -46,6 +52,7 @@ nav .flex-container .left-links {
 
 }
 nav .flex-container .right-links {
+    font-size: 24px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -57,4 +64,47 @@ nav .flex-container .right-links {
 nav .flex-container img {
     margin: auto;
     box-shadow: none;
+}
+.Hero #Hero-img {
+    background-image: url("./images/Hero-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 400px 0px 60px 0px;
+}
+.Hero .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Hero #Hero-img .flex-container h1 {
+    font-family: var(--Poppins);
+    font-weight: 600;
+    font-size: 96px;
+    margin: 0;
+    color: white;
+}
+.Hero #Hero-img .flex-container h2 {
+    margin: 0;
+    font-family: var(--Caveat);
+    font-size: 36px;
+    color: white;
+}
+.Hero #Hero-img .flex-container h3 {
+    margin: 0;
+    font-family: var(--Caveat);
+    font-size: 24px;
+    color: white;
+}
+.Hero #Hero-img .flex-container button {
+    margin: 30px;
+    font-family: var(--Caveat);
+    font-size: 24px;
+    background-color: var(--accent-color);
+    color: white;
+    border: 0;
+    padding: 10px 60px;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+    
 }
