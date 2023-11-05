@@ -34,10 +34,9 @@
             <div class="flex-container">
                 <h2>Your Dog's Home Away From Home</h2>
                 <!--Need to make this into an animation that types out a rotation of phrases-->
-                <h1>Pawsitive Vibes Only.</h1>
+                <div class="auto-type"></div>
                 <h3>Servicing Bourne and Areas Near</h3>
                 <button>Start Your Adventure!</button>
-                
             </div>
         </div>
     </section>
@@ -69,5 +68,18 @@
         <a href="">Contact</a>
         <a href="">Blog</a>
     </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Pawsitive Vibes Only", "Barking up the right tree", "Sniff Sniff..."],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1500,
+            loop: true,
+            showCursor: false
+        })
+        $('.typed-cursor').hide();
+    </script>
 </body>
 </html>
