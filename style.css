@@ -61,7 +61,7 @@ nav .flex-container .left-links {
     width: 30%;
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: var(--Caveat);
     align-items: center;
 
@@ -72,7 +72,7 @@ nav .flex-container img {
     margin-top: -2%;
     width: 16vw;
     position: absolute;
-    top: 0;
+    top: 1%;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -86,15 +86,18 @@ nav .flex-container .right-links {
 
 nav .flex-container .right-links button {
     margin: 5px;
-    padding: 3px 40px;
     font-family: var(--Caveat);
     border: none;
+    width: 100%;
+    height: 6%;
+    min-width: 0.5%;
+    max-width:20%;
     
 
 }
 
 #light {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: var(--contrast-color-2);
     background-color: var(--primary-color);
 }
@@ -106,7 +109,7 @@ nav .flex-container .right-links button {
 #dark {
     border-radius: 0px;
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 1.5vw;
      background-color: #A75959;
      border: 2px solid var(--contrast-color-2);
 }
@@ -125,13 +128,20 @@ nav .flex-container .right-links button {
     background-image: url("./images/H5.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 500px;
+    height: 0;
+    padding-top: 42.6263678999%;
     display: block;
+    position: relative;
 }
 
 .Hero #Hero-img .flex-container {
-    padding-top: 70px;
-    margin: 0;
+    margin-top: -16vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,8 +159,7 @@ nav .flex-container .right-links button {
 .Hero #Hero-img .flex-container div {
     display: block;
     margin-top: -3%;
-    margin-bottom: -5%;
-    min-height: 150px;
+    min-height: 19%;
     font-family: var(--Poppins);
     font-weight: 600;
     font-size: 5vw;
@@ -159,7 +168,7 @@ nav .flex-container .right-links button {
 
 
 .Hero #Hero-img .flex-container h3 {
-    margin-bottom: -1%;
+    margin-top: -4%;
     font-family: var(--Caveat);
     font-size: 1.5vw;
     font-weight: 100;
@@ -167,12 +176,13 @@ nav .flex-container .right-links button {
 }
 
 .Hero #Hero-img .flex-container button {
-    margin-top: 20px;
-    padding: 10px 50px;
     font-family: var(--Caveat);
-    font-size: 18px;
+    font-size: 1.5vw;
     background-color: var(--accent-color);
     color: white;
     border: none;
-    width: fit-content;
+    width: 100%;
+    height: 6%;
+    min-width: 0.5%;
+    max-width:20%;
 }
