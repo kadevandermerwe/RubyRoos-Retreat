@@ -20,7 +20,7 @@ body {
     background-color: var(--contrast-color-2);
     margin: 0;
     padding: 0;
-    height: 1000vw;
+    height: 50vw;
 }
 
 section {
@@ -356,4 +356,33 @@ nav .flex-container .right-links button {
     width: 50%;
     height: 2vw;
 
+}
+
+/* Footer Section / All Pages */
+
+.footer {
+    padding: 2vw 0vw;
+    width: 50%;
+    margin: auto;
+    
+}
+.footer ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.footer img {
+    width: 2vw;
+}
+
+.footer ul li {
+    margin: auto;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 1vw;
+    color: var(--primary-color);
 }
