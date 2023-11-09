@@ -8,8 +8,6 @@
     <title>RubyRoos-Retreat</title>
 </head>
 <body>
-    
-    
     <nav id="nav">
         <div class="flex-container">
                 <ul class="left-links">
@@ -17,7 +15,7 @@
                     <li></li><a href="#">Pricing</a></li>
                     <li></li><a href="#">Gallery</a></li>
                 </ul>
-                <img src="./images/Ruby-Roo (1).svg" alt="Logo">
+                <img src="./images/Ruby-Roo (1).svg" alt="Logo" href="#" id="Logo">
 
                 <div class="right-links">
                     <button href="#" id="light">Pup-Up Shop</button>
@@ -54,13 +52,26 @@
         </div>
     </section>
     <section id="services">
-        <div id="circle-1"></div>
-        <h4></h4>
-        <div id="circle-2"></div>
-        <h4></h4>
-        <div id="circle-3"></div>
-        <h4></h4>
-        <button>Start Your Adventure!</button>
+        <h2>What do we do exactly?</h2>
+        <div class="flex">
+            
+            <div class="flex-container">
+                
+                <img src="./images/1.svg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum, sint ipsam veniam dolorum ea iusto, quidem minima iure libero modi numquam dicta, blanditiis laboriosam fuga consequatur beatae. Aperiam, rerum.</p>
+                <button>Book A Session</button>
+            </div>
+            <div class="flex-container">
+                <img src="./images/2.svg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum, sint ipsam veniam dolorum ea iusto, quidem minima iure libero modi numquam dicta, blanditiis laboriosam fuga consequatur beatae. Aperiam, rerum.</p>
+                <button>Book A Session</button>
+            </div>
+            <div class="flex-container">
+                <img src="./images/3.svg    " alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi illum, sint ipsam veniam dolorum ea iusto, quidem minima iure libero modi numquam dicta, blanditiis laboriosam fuga consequatur beatae. Aperiam, rerum.</p>
+                <button>Book A Session</button>
+            </div>
+        </div>
     </section>
     <section class="footer">
         <img src="#" alt="Logo">
@@ -75,8 +86,10 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script>
+        const randInt = Math.floor(Math.random() * 1)
+        console.log(randInt);
         var typed = new Typed(".auto-type", {
-            strings: ["Pawsitive Vibes Only", "Barking up the right tree", "Sniff Sniff..."],
+            strings: ["Need a holiday..?", "Pawsitive Vibes Only.", "Barking up the right tree", "Sniff Sniff...",],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1500,
