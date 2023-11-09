@@ -222,6 +222,7 @@ nav .flex-container .right-links button {
 /* About Me Section / Home */
 #about-me {
     background-image: url('./images/candy.svg');
+    background-size: contain;
     background-repeat: no-repeat;
 }
 #about-me .flex-container {

@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 0.1 || document.documentElement.scrollTop > 0.1) {
     document.getElementById("nav").style.position = "fixed";
-    document.getElementById("Hero").style.padding = "105px 0px 0px 0px";
+    document.getElementById("Hero").style.padding = "7% 0% 0% 0%";
   } else {
     document.getElementById("nav").style.position = "relative";
     document.getElementById("Hero").style.padding = "0px 0px 0px 0px";
